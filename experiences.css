@@ -1,0 +1,44 @@
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex:0.7
+    
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+    
+
+}
+
+img {
+    border-radius: 8px;
+    max-width: 80%;
+    height: auto;
+    
+}
+
+p { 
+    font-size: large;
+    font-family: 'Overpass Mono', monospace;
+   
+}
+
+p.dialogue {
+   font-size:35px;
+}
+
+p.legal {
+    font-size:30px;
+}
+
+.image1 {
+    flex: 1
+}
+ 
+
