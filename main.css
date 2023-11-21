@@ -43,3 +43,25 @@
     font-size: 28px;
     font-family: 'Overpass Mono', monospace;
 }
+
+.second {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-top:  2em;
+}
+
+.text2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1em;
+}
+
+.mssg2,.mssg3 {
+    font-size: 28px;
+    font-family: 'Overpass Mono', monospace;
+}
+
