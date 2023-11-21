@@ -1,12 +1,12 @@
-
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 0rem;
 }
+
 .title {
-    padding-top:10rem;
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -18,8 +18,8 @@
 }
 
 .line3 {
-    font-size:46px;
-    
+    font-size: 46px;
+
 }
 
 .first {
@@ -40,8 +40,6 @@
 }
 
 .mssg1 {
-    font-size: 28px; 
+    font-size: 28px;
     font-family: 'Overpass Mono', monospace;
 }
-
-
