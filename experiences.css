@@ -14,6 +14,10 @@
 
 
 }
+body {
+    margin: 10rem;
+    
+}
 
 img {
     border-radius: 8px;
