@@ -50,18 +50,18 @@
     justify-content: space-between;
     margin-left: 10em;
     margin-right: 10em;
-    padding-top:  5em;
+    padding-top: 5em;
 }
 
 .text2 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 0.5em;
 }
 
-.mssg2,.mssg3 {
+.mssg2,
+.mssg3 {
     font-size: 28px;
     font-family: 'Overpass Mono', monospace;
 }
-
