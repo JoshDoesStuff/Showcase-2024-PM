@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Oxanium&display=swap');
+
 .header {
     border:none;
     width:100%;
+    font-family:'Overpass Mono', monospace;
 }
