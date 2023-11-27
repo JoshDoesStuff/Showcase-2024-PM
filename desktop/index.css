@@ -75,3 +75,7 @@ body {
 .title{
     position: relative;
 }
+
+img.img2 {
+    scale: 200%;
+}
