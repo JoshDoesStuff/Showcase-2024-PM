@@ -5,7 +5,7 @@
     margin: 0rem;
 }
 
-.title {
+.titleText {
     padding-top: 10rem;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,8 @@
     font-size: 50px;
     line-height: 0.0rem;
     font-family: 'Overpass Mono', monospace;
-
 }
+
 
 .line3 {
     font-size: 46px;
@@ -64,4 +64,12 @@
 .mssg3 {
     font-size: 28px;
     font-family: 'Overpass Mono', monospace;
+}
+
+body {
+    margin:0
+}
+
+.title{
+    position: relative;
 }
