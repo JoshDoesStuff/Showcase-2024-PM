@@ -8,12 +8,17 @@
     font-size: 50px;
     line-height: 0.0rem;
     font-family: 'Overpass Mono', monospace;
-    background-image: ("img/mainPageTopBG.png");
+    
 }
 
 .title {
-  
+    background-image: url("img/mainPageTopBG.png");
+    background-size: cover;
+    aspect-ratio: 5/3;
+    
 }
+
+
 .line3 {
     font-size: 46px;
 
@@ -73,4 +78,5 @@ body {
 
 img {
     scale: 100%;
+    object-fit: fill;
 }
