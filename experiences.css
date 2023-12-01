@@ -15,9 +15,12 @@
 
 }
 body {
-    margin: 10rem;
-    
+    margin:0;
+    background-color: #4B9560;
+    color: white;
+    font-size: 120%;
 }
+
 
 img {
     border-radius: 8px;
