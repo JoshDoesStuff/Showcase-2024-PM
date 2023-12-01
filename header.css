@@ -5,20 +5,22 @@
     margin: 0rem;
     /* padding-left:1em; */
     /* padding-top: 2em;*/
-} 
+    
+
+}
 
 
 body {
-     margin-bottom:0;
+    margin-bottom: 0;
 }
 
-.headerItem{
+.headerItem {
     display: inline-block;
     position: relative;
     /* color: #0087ca; */
-  }
-  
-  .headerItem::after {
+}
+
+.headerItem::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -29,10 +31,35 @@ body {
     background-color: white;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
-    border-radius:50px;
-  }
-  
-  .headerItem:hover::after {
+    border-radius: 50px;
+}
+
+.headerItem:hover::after {
     transform: scaleX(1);
     transform-origin: bottom center;
-  }
+}
+
+/* Remove underscore for url stuff */
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color:white;
+}
