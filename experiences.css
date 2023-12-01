@@ -3,7 +3,7 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    flex: 0.7
+    flex: 0.7;
 }
 
 .intro {
@@ -68,9 +68,10 @@ p.text2 {
 
 img.image2 {
     border-radius: 8px;
-    max-width: 80%;
+    max-height: 500px;
+    width: 100%;
     height: auto;
-    
+    object-fit: cover;
 }
 
 .text2 {
