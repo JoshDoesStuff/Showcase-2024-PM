@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgrey;
+    margin: 1;
+}
+
+header {
+    height: 1000px;
+    background-position-x: center;
+    background-image: url("images/troodon.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+
+    border-radius: 1rem;
+}
+
+article {
+    padding: 1em;
+    color: whitesmoke;
+    background-color: rgba(17, 63, 3, 0.626);
+    border-radius: 3rem;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.33);
+    margin: 1rem;
+}
+
+main {
+    font-size: x-large;
+}
+
+.title {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: azure;
+}
+
+.two {
+    display:flex;
+    flex-flow: row-reverse;
+    align-items: center;
+}
+
+.classification-table{
+    margin: 1rem;
+    display:flex;
+    text-align: left;
+    padding: 1em;
+    color: whitesmoke;
+    background-color: rgba(17, 63, 3, 0.626);
+    border-radius: 3rem;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.33);
+}
+
+.troodon {
+    display:flex;
+    justify-content: left;
+    font-size: x-large;
+}
+
+.two-image {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.img_habit img {
+    object-fit: cover;
+    width: 70%;
+    height: 50%;
+} 
+
+.two-point {
+    display:flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex-flow: row;
+    font-size: x-large;
+}
+
+.fossil {
+    display:flex;
+    font-size: x-large;
+    flex-flow: row wrap;
+}
+
+.img_ht {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img_ht img {
+    object-fit: cover;
+    width: 60%;
+    justify-self: center;
+    align-self: center;
+}
+
+.habit {
+    display:flex;
+}
+
+.two-point-column {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: column;
+    flex-flow: column;
+    font-size: x-large;
+}
+
+.two-bottom {
+    padding: 1em;
+    color: whitesmoke;
+    background-color: rgba(17, 63, 3, 0.626);
+    border-radius: 3rem;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.33);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img_eggs {
+    display: flex;
+}
+
+.behavior {
+    width: 100%;
+}
+
+.feed_container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+       
+.img_bottom img {
+    max-width: 50%;
+    max-height:50%;
+}
+       
+/* SOME STUFF:
+.img_bottom img {
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    width: 65rem;
+}*/
+
+footer {
+    background-color: darkgrey;
+    font-size: larger;
+}
+
+.full {
+    width: 100vw;
+}
+
+.quarter {
+    width: 23vw;
+}
+
+.half {
+    width: 50vw;
+}
+.thirds {
+    width: 73 vw;
+}

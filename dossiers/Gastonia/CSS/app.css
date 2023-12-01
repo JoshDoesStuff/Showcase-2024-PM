@@ -1,0 +1,134 @@
+   * {
+       box-sizing: border-box;
+   }
+
+   header {
+       width: 100vw;
+       height: 90vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+
+   .page-wrapper {
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-around;
+   }
+
+   main {
+       display: flex;
+       flex-direction: column;
+       flex-flow: row wrap;
+       justify-content: space-around;
+       align-items: center;
+       width: 70%;
+       padding: 15vh;
+       border: 2px solid black;
+       margin-bottom: 30px;
+   }
+
+
+   nav,
+   aside {
+       position: sticky;
+       left: 0;
+       top: 1em;
+       border: 2px solid black;
+       margin-top: 1em;
+       background-color: rgb(215, 215, 215);
+       font-size: 17px;
+   }
+
+   .nav,
+   .aside {
+       width: 12.5%;
+   }
+
+   .aside {
+       order: 1;
+   }
+
+   .full {
+       width: 100%;
+   }
+
+   .fifty {
+       width: 48%;
+       max-width: 48%;
+
+   }
+
+   .thirty {
+       width: 30%;
+   }
+
+   .seventy {
+       width: 70%;
+   }
+
+   footer {
+       background-color: rgb(212, 212, 212);
+       margin-top: 5px;
+       border: 2px dashed black;
+       padding: 15px;
+       padding-left: 25px;
+   }
+
+   img {
+       max-width: 100%;
+
+   }
+
+   .pad {
+       padding: 20px;
+   }
+
+   .holder {
+       position: relative;
+       text-align: center;
+       color: rgb(0, 0, 0);
+   }
+
+   .center {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background: rgba(255, 255, 255, 0.5);
+       padding: 1em;
+       border-radius: 1em;
+   }
+
+   body {
+       font-size: 20px;
+       background-color: rgb(227, 227, 227);
+   }
+
+
+   .head-img {
+       background-image: url(/Image/i1_Gastonia_burgei_dinosaur_edited_s-removebg-preview.png);
+       display: flex;
+       width: 700%;
+       height: 70%;
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+   }
+
+   @media only screen and (max-width:640px) {
+       .aside {
+           order: 0;
+           width: 60%;
+       }
+
+       .nav {
+           width: 33%;
+       }
+
+       main {
+           width: 96.5%;
+       }
+
+   }

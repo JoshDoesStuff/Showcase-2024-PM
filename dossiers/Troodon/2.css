@@ -1,0 +1,101 @@
+.title {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.img_ai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    display:flex;
+    flex-flow: row-reverse;
+}
+
+.classification-table{
+    display:flex;
+    border: 3px solid rgb(0, 0, 0);
+    justify-content: flex-end;
+}
+
+.troodon {
+    display:flex;
+    font-size: x-large;
+}
+
+.two-image {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/*.img_ai {
+    display: flex;
+    width:
+   
+}
+
+.img_habit {
+    display: flex;
+}
+*/
+
+.two-point {
+    display:flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex-flow: row;
+    font-size: x-large;
+}
+
+.indentification {
+    display:flex;
+}
+
+.habit {
+    display:flex;
+}
+
+.two-point-column {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: column;
+    flex-flow: column;
+    font-size: x-large;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_ht {
+    display: flex;
+    height:85%;
+}
+
+.img_eggs {
+    display: flex;
+}
+
+.img_tooth {
+    display: flex;
+}
+
+.behavior {
+    display:flex;
+    font-size: x-large;
+}
+
+.feeding {
+    display:flex;
+    font-size: x-large;
+}
+
+.fossil {
+    display:flex;
+    font-size: x-large;
+}

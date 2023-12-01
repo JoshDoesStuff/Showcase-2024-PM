@@ -1,0 +1,156 @@
+img {
+    max-width: 300px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right: 120px;
+    margin-top: -1890px;
+}
+
+.table {
+    width: 300px;
+    height: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px
+}
+
+th {
+    background-color: #317771;
+    padding: 10px;
+}
+
+td {
+    background-color: #749789;
+    text-align: center;
+}
+
+body {
+    font-size: 20px;
+    color: black;
+    background-color: #d1d7ce;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(33, 68, 61);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    color: azure;
+
+}
+
+.pic-1{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.right-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.page {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0px 10px;
+
+}
+
+.button:hover {
+    color: rgb(255, 236, 69);
+    background-color: rgb(177, 196, 178);
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    border-style: solid;
+    border-radius: 40px;
+    border-color: #317771;
+    background-color: #749789;
+    border-width: 3px;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 10px;
+}    
+
+.sidebar{
+    height:100%;
+    width:190px;
+    z-index: 99;
+    top:0;
+    left:0;
+    background-color: rgb(99, 135, 111);
+    overflow-x:hidden;
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-bottom: 940%;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00521f;
+    display: block;
+  }
+
+.sidebar a:hover{
+    color: aqua;
+    background-color: blue;
+}
+
+.main{
+    margin-left: 20px;
+    padding: 0px 10px;
+}
+
+.toppart{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.sidenav{
+
+}

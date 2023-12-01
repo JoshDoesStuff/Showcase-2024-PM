@@ -1,0 +1,50 @@
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.forty {
+    width: 40%
+}
+
+.sixty {
+    width: 60%
+}
+
+h1 {
+    background: linear-gradient(to bottom, #ffc5ef, #ff9797);
+}
+
+header {
+    width: 1500px
+}
+
+em,
+strong {
+    background-color: #fecb73;
+    display: inline;
+    margin: 50px;
+}
+
+h1 {
+    padding: 50px;
+    border-bottom: 1px solid #fdd846;
+}
+
+p {
+    padding: 20px 0 20px 10px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.table {
+    background: linear-gradient(to bottom, #ffbbc3, #ffc3c3);
+    width: 40%
+}
+
+body {
+    background-color: #ffedef;
+}

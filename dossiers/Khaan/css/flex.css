@@ -1,0 +1,184 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(200, 184, 132);
+    height: 120px;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+    border-top: 0px;}
+h1 {
+    align-self: center;
+}
+
+main {
+    background-color: #ded6b2;
+}
+
+p {
+    background-color: rgb(200, 184, 132);
+}
+
+footer {
+    background-color: #beb794;
+}
+
+.box1 {
+    align-self: flex-start;
+    position: relative;
+    top: 150px;
+    right: 45px;
+}
+
+.box2 {
+    font-size: 30px;
+    width: 35%;
+    align-self: flex-start;
+    position: relative;
+    top: 215.5px;
+}
+
+.box5 {
+    font-size: 32px;
+    position: relative;
+    bottom: 300px;
+    right: 235px
+}
+.full {
+    width: 75%;
+}
+
+.half {
+    width: 37%;
+    margin-top: 150px;
+}
+
+.third {
+    width: 20%;
+
+}
+
+
+
+.quarter {
+    width: 25%;
+}
+
+.eighth {
+
+    width: 50%
+}
+
+.quarterhalf {
+    width: 44%;
+}
+
+.header {
+    font-size: 32px;
+
+}
+
+.text {
+    font-size: 30px;
+}
+
+.halffooter {
+    width: 38%;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.full2 {
+    width: 70;
+    margin-top: 150px;
+    border-top: solid;
+    padding: 0% 18.3% 0%
+}
+.table2 {
+    position: relative;
+    top: 30px;
+    left: 60px;
+    border: solid;
+    border-radius: 10px;
+    background-color: rgb(200, 184, 132);
+    margin-top: 40px;
+}
+
+.table3 {
+    position: relative;
+    top: 200px;
+    left: 10px;
+}
+
+.khaan-picture {
+    width: min(240vw, 395px);
+    padding: -150px;
+    border: solid;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 28px;
+    margin-right: 28px;
+
+
+}
+
+.center {
+    align-self: center;
+}
+
+.footerend {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    font-size: 125%;
+}
+
+.footerfont {
+    font-size: 17px;
+}
+
+a {
+    font-size: 14px;
+}
+
+pre {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.picture {
+    width: 30%;
+}
+
+.nofont {
+    font-size: 15px;
+}
+
+.div {
+    border-top: solid;
+    position: relative;
+    bottom: 130px;
+}
+
+.footerpicture {
+    margin-left: 130px;
+}
+
+.border {
+    border: solid;
+}
+.fit{
+    object-fit: cover;
+}
+.margin{
+    margin-left: 110px;
+}

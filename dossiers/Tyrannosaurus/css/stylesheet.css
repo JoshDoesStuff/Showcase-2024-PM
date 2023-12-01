@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+
+}
+body{
+    background-color: lightgray;
+}
+.title {
+    display: flex;
+    flex: 1 0 auto;
+    font-size: 4rem;
+    background: white;
+    justify-content: center;
+    border-radius: 15rem;
+}
+
+.render {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.DistributionMaps {
+    display: flex;
+    flex: 1 1 100%;
+
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    align-items: flex-end;
+
+}
+
+.text {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.left {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+
+.habitat {
+    font-size: 30px;
+}
+
+.slamleft {
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.textleft {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+body{
+    font-size: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.Table{
+    font-size: 18;
+    padding: 1% 1% 1% 1%    ;
+    background: gray;
+    border-radius: 15%;
+}
+
+.row{
+display:flex;
+flex-flow:row nowrap;
+justify-content: space-between;
+font-size: 20px;
+}
+.written{
+flex-basis:45%;
+}
+.image{
+flex-basis:45%;
+}
+.row-reverse{
+    display:flex;
+    flex-flow:row-reverse nowrap;
+    justify-content: space-between;
+}
+.titlesmall {
+    display: flex;
+    flex: 1 0 auto;
+    font-size: 3rem;
+    background: white;
+    justify-content: flex-start;
+    border-radius: 10rem;
+}
+.move {
+    padding: 0 50% 0 0;
+}

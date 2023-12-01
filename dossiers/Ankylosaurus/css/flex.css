@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/* This creates a sidebar which also stays in place when scrolling cred:https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+.sidebar {
+    position: fixed;
+    width: 14.8%;
+    /* width of the side bar with which a margin can be created (see main and footer) */
+    line-height: 2.5em;
+    font-size: 1.1em;
+}
+
+main,
+footer {
+    margin-left: 20%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p,
+h3,
+h4,
+dl {
+    font-size: 1.3em;
+}
+
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.row-reverse {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.row,
+.row-reverse {
+    margin-bottom: 2vh;
+}
+
+.written {
+    flex-basis: 46%;
+
+}
+
+.image {
+    flex-basis: 46%;
+    align-self: center;
+}
+
+.slideshow-container {
+    align-self: center;
+    flex-basis: 46%;
+    height: 415px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slides>div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 375px;
+    border-radius: 10px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-container figure {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 375px;
+}
+
+.slideshow-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-nav>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 15%;
+    margin: 0 0.25rem;
+}
+
+.slideshow-nav>a:hover {
+    background-color: forestgreen;
+}
+
+.slideshow-nav>a:focus {
+    background: rgb(1, 62, 13);
+}
+
+
+ol {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 65vh;
+}
+
+.sourcelist-item {
+    width: 40%;
+    flex: 1 1 7%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+thead {
+    background-color: forestgreen;
+    color: aliceblue;
+}
+
+th {
+    padding: 10px;
+}
+
+figure td,
+figure th {
+    font-size: 0.7em;
+}
+
+table {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    width: 426px;
+    height: 320px;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+sup {
+    font-size: 0.6em;
+    line-height: 1em;
+}

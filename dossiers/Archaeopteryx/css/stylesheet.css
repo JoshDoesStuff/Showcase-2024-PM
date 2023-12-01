@@ -1,0 +1,98 @@
+img {
+    max-width: 90%;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+figure>figcaption {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 19px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    
+    align-self: flex-start;
+    background-color: lightgrey;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.classifyColumn>table {
+    margin-left: 2%;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: auto;
+    justify-content: space-around;
+}
+
+.column2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.overview {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+tbody {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: flex-start;
+    justify-content: center;
+    width: 20vw;
+    margin-left: 3%;
+    border-style: inset;
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 19px;
+}
+
+td {
+    display: flex;
+    padding: 5px;
+    font-size: 18px;
+}

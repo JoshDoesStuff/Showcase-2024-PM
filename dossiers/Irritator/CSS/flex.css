@@ -1,0 +1,125 @@
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.stylin {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    border-collapse:collapse;
+    margin: 0 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 20px;
+    padding:10px;
+    }
+
+    .table {
+        border-width:15px;
+        border-radius:11px;
+        border-style:groove;
+        padding:30px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+.section {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid lightslategray;
+    background-color: orange
+}
+
+.classification{
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+
+.timep{
+    display:flex;
+    flex-wrap:wrap;
+    width:24%;
+    align-items:flex-start;
+    justify-content:flex-end;
+    align-content:space-between;
+}
+
+.challengeri {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+.page {
+    background: linear-gradient(to top, aquamarine,     #312a1e);
+    width:1500px;
+    margin:0 auto
+}
+
+body {
+    background: linear-gradient(to top, rgb(102, 181, 154), #312a1e);
+}
+
+.linkage {
+    background: linear-gradient(to top, rgb(102, 181, 154), aquamarine);
+    background-color:rgb(102, 181, 154)
+}
+
+
+
+
+.half {
+    width: 48%;
+}
+
+.quarter {
+    width: 24%;
+}
+
+.quartet {
+    color:rgb(77, 222, 164)
+}
+
+.two-thirds {
+    width: 64%;
+}
+
+.third {
+    width: 32%;
+}
+
+.twe {
+    width: 20%
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2 {
+    color:rgb(52, 182, 139)
+}
+
+.mc-dumbstuff {
+    margin:2px auto;
+
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(218, 113, 47)
+}
+
+
+a:link {
+    color: teal;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(17, 105, 105);
+  }
+  a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+  }
+  a:active {
+    color: violet;
+  }

@@ -1,0 +1,505 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap');
+
+
+nav{
+    position: sticky;
+    top: 1em;
+    margin: 0 0 1rem 0;
+    
+}
+
+.left-column {
+    width: 170px;
+    position: relative;
+    align-self: stretch;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    margin: 1rem 1.2rem;
+    font-size: 1.2rem;
+}
+nav a{
+    color: rgb(225, 234, 255);
+    padding: .8rem;
+    background-color: #021b6b;
+    border-radius: 2rem;
+    display:block;
+    width: 150px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #1741c9;
+}
+nav a:active{
+    background-color: #000000;
+}
+header{
+    text-align: center;
+    background-image: url(/Images/Jungle.jpg);
+    border-radius: 1rem;
+
+    padding: 2rem;
+}
+h1, h2, h3{
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-image: linear-gradient(rgb(178, 247, 255), rgb(177, 255, 207));
+
+}
+main{
+    width: 80%;
+    flex-grow: 1;
+    margin: 0 3em;
+}
+main h2{
+    font-size: xx-large;
+}
+header  h1{
+    font-size: 5rem;
+    color: #000000;
+    background-color: #b8ec80be;
+    width: 250px;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 20px #749352be;
+}
+dt{
+    font-weight: bold;
+}
+p {
+    text-align: justify;
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    font-size: x-large;
+    background-color: rgb(171, 212, 253);
+    padding: .5rem 4rem 2%;
+    border-radius: 1rem;
+    margin-top: 5rem;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(55, 23, 237);
+}
+footer a:hover{
+    color: rgb(170, 156, 254);
+}
+
+footer ol{
+    line-height: 2.5rem; 
+}
+footer h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+main a {
+    color: rgb(0, 81, 10);
+    text-decoration: none;
+}
+main a:hover {
+    color: rgb(254, 254, 254);
+}
+figcaption, figure{
+    text-align: center;
+}
+.intro{
+    background-color: #5d94bb;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.5rem 0;
+    justify-content: space-around;
+    margin: 1rem 0;
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+}
+.intro h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.L-intro{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.L-intro img {
+    width: 100%;
+    object-fit: cover;
+}
+.R-intro {
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+.R-intro dl {
+    font-size: large;
+    margin-top: 1rem;
+    width: 47%;
+    background-color: #3a62e4;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px rgb(119, 119, 119);
+    font-family: 'Lato', sans-serif;
+}
+.habitat{
+    background-color: #679436;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+    justify-content: space-around;
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+}
+.L-habitat{
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.L-habitat h2 {
+    margin-bottom: 1rem;
+}
+.R-habitat{
+    width: 50%;
+    text-align: center;
+}
+.R-habitat img{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.class2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color:#5d94bb;
+    margin: 1rem 0;
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+    padding: 1.5rem 0;
+
+
+}
+.Dmap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 30%;
+}
+.R-Dmap{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+.classi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+}
+.L-classi 
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 40%;
+}
+.R-classi{
+    width: 60%;
+    align-self: flex-start;
+}
+.classi h2 {
+    text-align: center;
+    width: 100%;
+}
+.R-classi img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    justify-self: center;
+}
+.L-classi ul {
+    font-size: xx-large;
+}
+.L-classi h2
+{
+    font-size: 300%;
+    margin: 0 0 2rem 0;
+}
+.feeding{
+    background-color: #679436;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.5rem 0;
+    justify-content: space-around;
+    margin: 1rem 0; 
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+    align-items: center;
+}
+.feeding h2{
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.L-feeding{
+    width: 60%;
+}
+.L-feeding img{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.feeding p{
+    width: 20%;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+.identify{
+    background-color: #5d94bb;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.5rem 0;
+    justify-content: space-around;
+    margin: 1rem 0; 
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+}
+.L-identify{
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+}
+.L-identify h2{
+    width: 100%;
+    text-align: center;
+    align-self: flex-end;
+}
+.R-identify{
+    width: 40%;
+}
+.R-identify img{
+    object-fit: cover;
+    width: 100%;
+    height: 35  0px;
+    text-align: center;
+}
+.class3 {
+    display: flex;
+}
+.funfact p{
+    font-size: large;
+}
+.behaviors{
+    background-color: #679436;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+    margin: 1rem 0; 
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+}
+.beha3 {
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+.funfact{
+    background-color:  #338a08;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 5px rgb(0, 56, 2);
+}
+.behaviors2 {
+    width: 20%;
+    margin-bottom: 1rem;
+}
+.behaviors h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.behaviors figure{
+    width: 100%;
+    align-self: center;
+}
+.behaviors img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.behaviors table{
+    font-size: x-large;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    margin: 0 5%;
+}
+.behaviors th, td{
+    padding: .5rem 0;
+    text-align: center;
+}
+.td1 {
+    padding-right: 2rem;
+}
+.td2 {
+    padding-left: 2rem;
+}
+.behaviors td {
+    top: 0;
+    text-align: justify;
+    vertical-align: top;
+
+}
+.predators {
+    background-color:  #5d94bb;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.5rem 0rem;
+    justify-content: space-around;
+    margin: 1rem 0; 
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+}
+.predators p {
+    width: 90%;
+}
+.predators h2 {
+    text-align: center;
+    width: 100%;
+}
+.predators h3 {
+    margin-bottom: 1rem;
+    font-size: 1.4em;
+    text-align: center;
+}
+.predators1{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    align-items: center;
+    background-color: #4585b6;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.predators1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+.predators2{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    align-items: center;
+    background-color: #4585b6;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+.predators2 img{
+    object-fit: cover;
+    width: 65%;
+    height: 250px;
+    text-align: center;
+}
+.fossils{
+    background-color: #679436;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    margin: 1rem 0; 
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+}
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.L-fossils{
+    width: 40%;
+}
+.L-fossils img{
+    object-fit: cover;
+    width: 100%;
+    height: 270px;
+    text-align: center;
+}
+.R-fossils{
+    width: 40%;
+}
+.R-fossils img{
+    object-fit: cover;
+    width: 100%;
+    height: 270px;
+    text-align: center;
+}
+.fossils p {
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.Fmap{
+    background-color: #5d94bb;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.5rem 4rem;
+    justify-content: center;
+    margin: 1rem 0; 
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px rgb(119, 119, 119);
+}
+
+/* https://coolors.co/064789-427aa1-ebf2fa-679436-a5be00 */
+@media only screen and (max-width: 600px) {
+    main {
+      display:flex;
+      flex-direction: column;
+    }
+}

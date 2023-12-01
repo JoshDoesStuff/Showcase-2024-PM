@@ -1,0 +1,137 @@
+  /* * {display:flex;}   */
+  main {
+      display: flex;
+      align-items: stretch;
+      flex-flow: row;
+      flex-wrap: wrap;
+      align-self: center;
+
+  }
+
+  body {
+      background-color: silver;
+  }
+
+  .row {
+      display: flex;
+      justify-self: center;
+      justify-content: space-around;
+      align-self: center;
+      flex-wrap: wrap;
+      flex-flow: row;
+      max-width: 98vw;
+      flex-grow: 1;
+  }
+
+  footer {
+      border: 5px dashed grey;
+      max-width: 98vw;
+      border-radius: 1%;
+  }
+
+  .column {
+      min-width: 33vw;
+      border: 5px solid black;
+      border-radius: 1%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: stretch;
+      min-width: 300px;
+      flex-grow: 1;
+      flex-shrink: 1;
+      background-color: rgb(195, 200, 205);
+  }
+
+  th {
+      border: 3px solid black;
+      scale: 1;
+      max-width: 33vw;
+      min-width: 30vw;
+      border-radius: 1%;
+  }
+
+  img {
+      display: flex;
+      max-width: 100%;
+      flex-direction: row;
+      align-self: center;
+      justify-self: center;
+      flex-grow: 1;
+  }
+
+  td {
+      border: 3px solid black;
+      padding: 5px;
+      font-size: 1.9vw;
+      text-align: center;
+      border-radius: 1%;
+  }
+
+  ul {
+      font-size: 1.3vw;
+  }
+
+  table>tbody>tr:nth-child(odd)>td:nth-child(even) {
+      background-color: rgb(202, 179, 136);
+  }
+
+  table>tbody>tr:nth-child(even)>td:nth-child(odd) {
+      background-color: rgb(202, 179, 136);
+  }
+
+  tr>th:nth-child(odd) {
+      background-color: rgb(202, 179, 136);
+  }
+
+  table>tbody>tr:nth-child(even)>td:nth-child(even) {
+      background-color: rgb(181, 178, 146);
+  }
+
+  table>tbody>tr:nth-child(odd)>td:nth-child(odd) {
+      background-color: rgb(181, 178, 146);
+  }
+
+  tr>th:nth-child(even) {
+      background-color: rgb(181, 178, 146);
+  }
+
+  p {
+      padding: 5px;
+      font-size: 1.5vw;
+  }
+
+  #table-1 {
+      display: flex;
+      flex-grow: 0;
+      border-radius: 1%;
+  }
+
+  .table-img {
+      display: flex;
+      align-self: center;
+      justify-self: center;
+  }
+
+  #classes {
+      min-width: 22vw;
+  }
+
+  ol {
+      display: flex;
+      justify-content: space-around;
+      font-size: 20px;
+  }
+
+  body {
+      background-image: url(img/gryposaurus-render.png);
+  }
+
+  figcaption{
+    font-size: 1.2vw;
+  }
+
+  a:hover,
+  a:visited{
+    color: red;
+  }

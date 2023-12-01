@@ -1,0 +1,168 @@
+body {
+  color: #dfdddd;
+  background-color: rgb(101, 47, 47);
+}
+
+table {
+  border-style: solid;
+  border-color: #000;
+  border-width: 3px;
+}
+
+summary {
+  font-size: 25px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px;
+}
+
+details {
+  color: #dfdbdb;
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px;
+}
+
+th,
+td {
+  border: 1px solid;
+  border-color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.full {
+  width: 100%;
+}
+
+.half {
+  width: 48%;
+}
+
+.two-thirds {
+  width: 66%;
+}
+
+.third {
+  width: 32%;
+}
+
+.quarter {
+  width: 24%;
+}
+
+.bigImage {
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+  height: 30vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  width: 500px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.slides {
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background: #000000;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.slideshow-container img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow-nav {
+  position: absolute;
+  z-index: 2;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slideshow-nav > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+  margin: 0 0.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.slideshow-nav > a:hover {
+  background-color: aquamarine;
+}
+
+.slideshow-nav > a:focus {
+  background: #000;
+}
+
+@supports (scroll-snap-type) {
+  .slideshow-nav {
+    display: none;
+  }
+
+  .slides {
+    overflow-x: scroll;
+  }
+}

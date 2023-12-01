@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.image {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.flex > section {
+    width: 48%;
+}
+
+.half {
+    width: 48%;
+}
+
+.third {
+    width: 30%;
+}
+
+/* .flex > section {
+    width: 48%;
+} */

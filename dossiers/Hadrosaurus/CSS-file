@@ -1,0 +1,18 @@
+.item-list{
+
+    scroll-snap-type: x mandatory;
+}
+
+.item{
+
+    scroll-snap-align: center;
+}
+.item-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .item-list {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+  

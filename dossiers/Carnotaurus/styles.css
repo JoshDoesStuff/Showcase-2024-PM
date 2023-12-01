@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+
+}
+dl {
+    margin: 0;
+    width: 100%;
+    clear:left;
+}
+ dt { 
+    float: left;
+    clear: left;
+    width: 40%;
+    padding: 10px 5%;
+}
+dd {
+    float: left;
+    /* border-left: 1px solid black; */
+    margin: 0;
+    width: 40%;
+    padding: 10px 5%;
+}
+
+aside {
+    float: right;
+    background: darkgrey;
+    color: black;
+    width: 25%;
+    /* min-width: 200px; */
+}
+aside > section {
+    padding: 10px 10px;
+    text-align: center;
+}
+aside > section h3 {
+    margin-bottom: 0;
+}
+aside > dl {
+    border-top: 1px solid black;
+
+}
+
+aside > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    border-bottom: 1px solid black;
+
+}
+aside > ul img {
+    max-width: 50px;
+    float: left;
+
+}
+aside > ul h4,
+aside > ul p {
+    margin: 0;
+    margin-left: 60px;
+    padding; 0;
+}
+aside > ul h4 {
+    margin-bottom:5px;
+}
+aside > ul li {
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+main {
+    float: left;
+    width: 75%;
+}
+section.head-image img {
+    width: 100%;
+    height: 100%;
+}
+section.article {
+    clear: both;
+    padding-top: 20px;
+
+}
+
+section.article h2,
+section.article p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+section.article p {
+    line-height: 1.3;
+}
+section.article img {
+    max-width: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+    
+}
+section.article img.right {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+section.article .content p {
+
+}
+
+
+
+.paragraph {
+    display: flex;
+    color: #FFF;
+    background-color: orange;    /* Blue */
+    font-weight: bold;
+    padding: 1px 10px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+}
+
+footer {
+    clear: both;
+}
+footer ol li {
+    
+}
