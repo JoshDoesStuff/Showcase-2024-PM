@@ -7,6 +7,9 @@
     align-items: center;
     transition: 0.5s;
     z-index: 1;
+    margin-bottom:3em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .box::before {
@@ -138,11 +141,37 @@ img {
     flex-direction: column;
 }
 
+body {
+    margin: 0;
+    background-color: #4B9560;
+    color: white;
+    font-size: 120%;
+}
+
 
 .mainContent {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 50em;
+    margin-top:-20em
+}
+
+.title {
+    background-image: url("img/dossiersTopBG.png");
+    background-size: cover;
+    aspect-ratio: 4/3;
+
+}
+
+.titleText {
+    padding-top: 19rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 80px;
+    line-height: 0.0rem;
+    font-family: 'Overpass Mono', monospace;
+
 }
