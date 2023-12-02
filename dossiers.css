@@ -137,3 +137,12 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+
+.mainContent {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50em;
+}
