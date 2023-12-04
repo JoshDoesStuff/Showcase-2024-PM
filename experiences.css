@@ -11,6 +11,7 @@
     margin-left: 10em;
     margin-right: 10em;
 }
+
 body {
     background-color: #4B9560;
     color: white;
@@ -39,7 +40,6 @@ p.legal {
 
 .image1 {
     flex: 1;
-    
 }
 
 h1.title {
@@ -81,13 +81,4 @@ p.text2 {
 .text2 {
     display: flex;
     align-items: center;
-}
-
-.midde {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-left: 10em;
-    margin-right: 10em;
-    padding-top: 5em;
 }
