@@ -68,17 +68,45 @@ p.text2 {
 }
 
 .image4 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image2 {
     border-radius: 8px;
-    max-height: 500px;
+    max-height: 900px;
     width: 100%;
     height: auto;
     object-fit: cover;
     flex: 1;
-    display: flex;
-    justify-content: flex-end;
 }
+
 
 .text2 {
     display: flex;
     align-items: center;
 }
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1600px;
+    margin: 0em auto 4em;
+    justify-content: space-between;
+}
+
+.column.half {
+    width: 48%;
+}
+
+.column img {
+    min-width:100%;
+    min-height:100%;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+}
+
+.row:nth-of-type(odd) .column:first-of-type {
+    order: 1;
+} 
