@@ -6,3 +6,9 @@
     font-family:'Overpass Mono', monospace;
 }
 
+body {
+    background-color: #4B9560;
+    color: white;
+    font-size: 120%;
+    margin: 0;
+}

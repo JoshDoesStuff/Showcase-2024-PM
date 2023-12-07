@@ -44,13 +44,6 @@
     padding-bottom: 2em;
 }
 
-body {
-    background-color: #4B9560;
-    color: white;
-    font-size: 120%;
-    margin: 0;
-}
-
 .last2 {
     display: flex;
     justify-content: space-around;

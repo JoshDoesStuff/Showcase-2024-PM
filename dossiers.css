@@ -141,13 +141,6 @@ img {
     flex-direction: column;
 }
 
-body {
-    margin: 0;
-    background-color: #4B9560;
-    color: white;
-    font-size: 120%;
-}
-
 
 .mainContent {
     display:flex;
