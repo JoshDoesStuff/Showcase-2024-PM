@@ -33,14 +33,6 @@
     border-radius: 10px;
 }
 
-/* patch this around to fix mobile things */
-@media screen and (max-width: 768px) {
-    .container {
-        width: 180px;
-        height: 200px;
-    }
-}
-
 .card {
     cursor: pointer;
     width: 100%;
@@ -106,4 +98,34 @@
 .container:hover::before {
     left: -10px;
     transform: scale(1.2);
+}
+
+/* what is the spacing doing AAA */
+@media screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+    
+    .container {
+        width: 150px;
+        height: 200px;
+    }
+
+    .area1,
+    .area2,
+    .area3,
+    .area4,
+    .area5,
+    .area6 {
+        display: flex;
+        justify-content: space-around;
+        align-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2em;
+    }
 }
