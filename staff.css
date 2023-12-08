@@ -81,3 +81,20 @@
     padding-right:3em;
     padding-bottom:2em;
 }   
+
+
+.titleText {
+    padding-top:1.25em;
+    font-size: 96px;
+    font-family: 'monospace', Overpass Mono;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12rem;
+    padding-top: 8rem;
+    /* background-image: url(./img/experiencesTopBG.png);  */
+    background-size: cover;
+    aspect-ratio: 6/2;
+}
