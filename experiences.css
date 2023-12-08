@@ -45,6 +45,9 @@ h1.title {
     justify-content: center;
     padding-bottom: 12rem;
     padding-top: 8rem;
+    background-image: url(img/Group\ 1.png); 
+    background-size: cover;
+    aspect-ratio: 8/6;
 }
 
 .middle2 {
