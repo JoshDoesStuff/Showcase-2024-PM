@@ -1,15 +1,26 @@
-.img {
-    margin: 12.5px;
-    width: 175px;
-    height: 175px;
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    align-self:flex-end;
+    
+}
+
+.imgContainer {
+    display:flex;
+    justify-content: center;
+    align-content: flex-end;
 }
 
 .card {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     transition: all 0.2s;
     position: relative;
     cursor: pointer;
+    max-width: 250px;
+    max-height: 250px;
+
 }
 
 .card-inner {
@@ -55,4 +66,16 @@
     to {
         transform: translateY(10px);
     }
+}
+
+
+.mainContent {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.person{
+    padding-left:6em;
+    padding-bottom:2em;
 }
