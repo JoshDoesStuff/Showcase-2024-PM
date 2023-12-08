@@ -35,7 +35,8 @@ p.legal {
     flex: 1;
 }
 
-h1.title {
+.titleText {
+    padding-top:1.25em;
     font-size: 96px;
     font-family: 'monospace', Overpass Mono;
 }
@@ -47,7 +48,7 @@ h1.title {
     padding-top: 8rem;
     background-image: url(img/Group\ 1.png); 
     background-size: cover;
-    aspect-ratio: 8/6;
+    aspect-ratio: 6/2;
 }
 
 .middle2 {
