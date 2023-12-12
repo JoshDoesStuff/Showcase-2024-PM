@@ -98,3 +98,12 @@
     background-size: cover;
     aspect-ratio: 6/2;
 }
+
+.nameplate {
+    position: fixed;
+    width: 100%;
+    top: -16px;
+    text-align: center;
+    font-family: 'Overpass Mono';
+    font-size: 24px;
+}
