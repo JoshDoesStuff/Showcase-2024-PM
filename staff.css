@@ -1,15 +1,16 @@
-.img{
-    width: 250px;
-    height: 250px;
+.imgHeight1{
+    aspect-ratio: 1.4935064935;;
     border-radius:8px;
-
+    object-fit:contain;
+    max-height:240px
     
 }
 
 .imgContainer {
     display:flex;
-    align-content: center;
+    align-items: flex-end;
     justify-content: center;
+    min-width:250px;
 }
 
 .card {
@@ -106,4 +107,12 @@
     text-align: center;
     font-family: 'Overpass Mono';
     font-size: 24px;
+}
+
+.imgHeight2{
+    aspect-ratio: 1.4935064935;;
+    border-radius:8px;
+    object-fit:contain;
+    max-height:225px
+    
 }
