@@ -14,13 +14,11 @@
     background-image: url("img/mainPageTopBG.png");
     background-size: cover;
     aspect-ratio: 4/3;
-
 }
 
 
 .line3 {
     font-size: 70px;
-
 }
 
 .first {
@@ -69,10 +67,10 @@
     font-family: 'Overpass Mono', monospace;
 }
 
-img {
+/* img {
     scale: 100%;
     object-fit: fill;
-}
+} */
 
 .img2 {
     padding-left: 0em;
@@ -119,4 +117,77 @@ button:active {
     display:flex;
     justify-content: center;
     padding-top:10em;
+}
+
+@media screen and (max-width: 616px) {
+    #openmenu {
+        display: initial !important;
+    }
+
+    header {
+        display: none !important;
+    }
+
+    .titleText {
+        font-size: 40px;
+    }
+
+    .line3 {
+        font-size: 35px;
+    }
+    
+    button {
+        font-size: 35px;
+    }
+    
+    .first {
+        display: flex;
+        flex-direction: row;
+        /* flex:2; */
+        justify-content: space-between;
+        margin-left: 1em;
+        margin-right: 10em;
+        padding-top: 5em;
+    }
+}
+
+#openmenu {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    width: 32px;
+    height: 32px;
+}
+
+#sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 256px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: -264px;
+    background-color: inherit; /* Pull from theme */
+    box-shadow: 0px 0px 8px black;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: left ease 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+#sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: inherit;
+    font-family: 'Overpass Mono';
+    display: block;
+    transition: 0.3s;
+}
+
+#sidenav .closemenu {
+    position: absolute;
+    cursor: pointer;
+    top: 16px;
+    right: 16px;
 }
