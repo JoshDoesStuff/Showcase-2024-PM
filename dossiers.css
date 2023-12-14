@@ -167,4 +167,14 @@ img {
     line-height: 0.0rem;
     font-family: 'Overpass Mono', monospace;
 
+} 
+
+@media screen and (max-width: 720px) {
+    #openmenu {
+        display: initial !important;
+    }
+
+    header {
+        display: none !important;
+    }
 }

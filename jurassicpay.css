@@ -110,3 +110,13 @@ input[type="password"] {
 .cart {
     font-family: 'Overpass Mono';
 }
+
+@media screen and (max-width: 720px) {
+    #openmenu {
+        display: initial !important;
+    }
+
+    header {
+        display: none !important;
+    }
+}

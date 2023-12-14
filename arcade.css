@@ -100,8 +100,7 @@
     transform: scale(1.2);
 }
 
-/* what is the spacing doing AAA */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     .header {
         display: none;
     }
@@ -127,5 +126,13 @@
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 2em;
+    }
+
+    #openmenu {
+        display: initial !important;
+    }
+
+    header {
+        display: none !important;
     }
 }

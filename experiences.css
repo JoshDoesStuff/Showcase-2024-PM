@@ -107,3 +107,13 @@ p.text2 {
 .row:nth-of-type(odd) .column:first-of-type {
     order: 1;
 } 
+
+@media screen and (max-width: 720px) {
+    #openmenu {
+        display: initial !important;
+    }
+
+    header {
+        display: none !important;
+    }
+}

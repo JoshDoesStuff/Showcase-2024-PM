@@ -116,3 +116,13 @@
     max-height:225px
     
 }
+
+@media screen and (max-width: 720px) {
+    #openmenu {
+        display: initial !important;
+    }
+
+    header {
+        display: none !important;
+    }
+}
