@@ -119,7 +119,7 @@ button:active {
     padding-top:10em;
 }
 
-@media screen and (max-width: 616px) {
+@media screen and (max-width: 720px) {
     #openmenu {
         display: initial !important;
     }
@@ -149,45 +149,4 @@ button:active {
         margin-right: 10em;
         padding-top: 5em;
     }
-}
-
-#openmenu {
-    cursor: pointer;
-    display: none;
-    position: fixed;
-    top: 16px;
-    left: 16px;
-    width: 32px;
-    height: 32px;
-}
-
-#sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 256px; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: -264px;
-    background-color: inherit; /* Pull from theme */
-    box-shadow: 0px 0px 8px black;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: left ease 0.3s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-#sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: inherit;
-    font-family: 'Overpass Mono';
-    display: block;
-    transition: 0.3s;
-}
-
-#sidenav .closemenu {
-    position: absolute;
-    cursor: pointer;
-    top: 16px;
-    right: 16px;
 }
