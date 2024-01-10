@@ -37,8 +37,15 @@ body {
     transition: left ease 0.3s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+#sidenav .closemenu {
+    position: absolute;
+    cursor: pointer;
+    top: 16px;
+    right: 16px;
+}
+
 #sidenav p {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 24px;
     text-decoration: none;
     font-size: 25px;
     color: inherit;

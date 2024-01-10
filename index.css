@@ -13,6 +13,8 @@
 .title {
     background-image: url("img/mainPageTopBG.png");
     background-size: cover;
+    background-position: center;
+    width: 100%;
     aspect-ratio: 4/3;
 }
 
@@ -80,6 +82,14 @@
     padding-right: 4em;
 }
 
+.img1_m {
+    display: none;
+}
+
+.img2_m {
+    display: none;
+}
+
 button {
     --b: 7px;
     /* border thickness */
@@ -142,11 +152,76 @@ button:active {
     
     .first {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         /* flex:2; */
-        justify-content: space-between;
         margin-left: 1em;
-        margin-right: 10em;
+        margin-right: 1em;
         padding-top: 5em;
     }
+
+    .img1 {
+        display: none;
+    }
+
+    .img1_m {
+        display: initial;
+        width: 100%;
+        height: auto;
+    }
+
+    .img1_m > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text1 {
+        text-align: center;
+    }
+
+    .mssg1 {
+        padding-left: 0em;
+    }
+    
+    .second {
+        display: flex;
+        flex-direction: column;
+        /* flex:2; */
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-top: 5em;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img2_m {
+        display: initial;
+        width: 100%;
+        height: auto;
+    }
+
+    .img2_m > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text2 {
+        text-align: center;
+        padding-left: 0em;
+    }
+
+    .mssg2 {
+        padding-left: 0em;
+    }
+}
+
+#openmenu {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    width: 32px;
+    height: 32px;
 }

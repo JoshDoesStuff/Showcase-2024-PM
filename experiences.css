@@ -48,6 +48,7 @@ p.legal {
     padding-top: 8rem;
     background-image: url(./img/experiencesTopBG.png); 
     background-size: cover;
+    background-position: center;
     aspect-ratio: 6/2;
 }
 
@@ -108,6 +109,10 @@ p.text2 {
     order: 1;
 } 
 
+.img1_m {
+    display: none;
+}
+
 @media screen and (max-width: 720px) {
     #openmenu {
         display: initial !important;
@@ -116,4 +121,65 @@ p.text2 {
     header {
         display: none !important;
     }
+
+    .titleText {
+        font-size: 40px;
+    }
+
+    .row {
+        display: flex;
+        flex-flow: column;
+        max-width: initial;
+        margin: 0em auto 4em;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .column.half {
+        width: auto !important;
+    }
+
+    .column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* flex:2; */
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-top: 1em;
+        text-align: center;
+        /* width: auto; */
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .row {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .img1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img1_m {
+        display: initial;
+        width: auto;
+        height: auto;
+    }
+
+    .img1_m > img {
+        width: 100%;
+        height: auto;
+        align-self: center;
+    }
+
+    /*
+    NO CONSTANT SIZE
+    KEEP THE MARGIN
+    NO OFF-SCREEN
+    */
 }
