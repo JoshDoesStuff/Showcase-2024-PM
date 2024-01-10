@@ -30,6 +30,7 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
     overflow: hidden;
     border-radius: 10px;
+    text-align: center;
   }
   
   .card {
@@ -97,9 +98,39 @@
 @media screen and (max-width: 720px) {
     #openmenu {
         display: initial !important;
+        z-index: 4;
     }
 
     header {
         display: none !important;
+        z-index: 4;
+    }
+
+    #sidenav {
+      z-index: 4;
+    }
+
+    .title {
+      font-size: 40px;
+      z-index: 4;
+    }
+
+    .area1,
+    .area2,
+    .area3,
+    .area4,
+    .area5  {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-content: space-between;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-bottom: initial;
+    }
+    
+    .container {
+      width: 100%;
+      margin-bottom: 1em;
     }
 }

@@ -119,4 +119,23 @@ input[type="password"] {
     header {
         display: none !important;
     }
+
+    .subheader {
+        padding-top: 2em;
+        font-size: 40px;
+    }
+
+    .headerish {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .input {
+        width: auto;
+        padding: 1em;
+    }
+
+    .input-container {
+        width: 100%;
+    }
 }
