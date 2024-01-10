@@ -160,11 +160,6 @@ p.text2 {
         align-items: center;
     }
 
-    .img1 img {
-        width: 100%;
-        height: auto;
-    }
-
     .img1_m {
         display: initial;
         width: auto;
