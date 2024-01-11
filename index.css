@@ -139,11 +139,11 @@ button:active {
     }
 
     .titleText {
-        font-size: 40px;
+        font-size: calc(100vw/12);
     }
 
     .line3 {
-        font-size: 35px;
+        font-size: calc(100vw/16);
     }
     
     button {
