@@ -122,12 +122,12 @@ input[type="password"] {
 
     .subheader {
         padding-top: 2em;
-        font-size: 40px;
+        font-size: calc(100vw/12);
     }
 
     .headerish {
         text-align: center;
-        font-size: 20px;
+        font-size: calc(100vw/24);
     }
 
     .input {

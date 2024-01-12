@@ -127,6 +127,6 @@
     }
 
     .titleText {
-        font-size: 40px;
+        font-size: calc(100vw/10);
     }
 }

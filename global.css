@@ -31,6 +31,7 @@ body::-webkit-scrollbar {
 }
 
 #sidenav {
+    display: none;
     height: 100%; /* 100% Full-height */
     width: 256px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -42,6 +43,12 @@ body::-webkit-scrollbar {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: left ease 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+@media screen and (max-width: 720px) {
+    #sidenav {
+        display: initial !important;
+    }
 }
 
 #sidenav .closemenu {
@@ -62,6 +69,8 @@ body::-webkit-scrollbar {
 }
 
 #sidenav .closemenu {
+    width: 32px;
+    height: 32px;
     position: absolute;
     cursor: pointer;
     top: 16px;

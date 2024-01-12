@@ -177,4 +177,12 @@ img {
     header {
         display: none !important;
     }
+
+    .titleText {
+        font-size: calc(100vw/10);
+    }
+    
+    .mainContent {
+        padding-top: 32em;
+    }
 }
